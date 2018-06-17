@@ -14,7 +14,7 @@ RUN pip3 install matplotlib
 RUN pip3 install scipy
 RUN pip3 install statsmodels 
 RUN pip3 install sympy
-
+RUN pip3 install matplotlib
 
 RUN mkdir /home/PYKU_Analysis_py3/
 #RUN cd /home && git clone https://github.com/StudyGroupPKU/Project-pre.git
